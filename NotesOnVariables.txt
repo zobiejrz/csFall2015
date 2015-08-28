@@ -1,0 +1,7 @@
+String -- Any text; String stringOne = "This is a string";
+			-have to use "" to start and close a string, not ''.
+char -- one CHARacter
+
+int -- any whole number
+
+double -- numbers with decimals
