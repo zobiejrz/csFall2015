@@ -1,0 +1,53 @@
+Easter Programming Quiz
+
+Your task: write a program that calculates the date for easter for any year the user enters after 1582.    Use the algorithm below as a guide for how to calculate the date.  The month should print as a word, the day of the month as a number.
+
+Pay attention to the order of operations!  If you need to do one step first, be sure to put it in parenthesis.
+
+**Take ___A___ and find the remainder when you divide  by __B__� is written like:  a % b**
+
+Algorithm: (adapt this into Java code)
+int a : Take the year and find the remainder when you divide by 19 ( use % instead of / to get the remainder).
+HINT: if you did this right, a should be a whole number between 0 and 18. You can use System.out.println(a); to check it.
+int b : Take the year and divide it by 100.
+int c : Take the year and find the remainder when you divide by 100
+int d : Take b and divide it by 4.
+int e : Take b and find the remainder when you divide by 4.
+int f : Take b and add eight, then divide the sum by 25.
+int g : Take b and subtract f and add 1, then divide by 3
+int h : Take a deep breath.  Ready?  Ok, here we go:
+Take 19 and multiply it by a.  Add b, subtract d and subtract g, and add 15.  Find the remainder of all that when you divide by 30.
+int i : Take c and divide it by 4.
+int j : Take c and find the remainder when you divide by 4.
+int k : Take another deep breath.  Stare at the ceiling for a few seconds so that your eyes don�t burn out.  These next few steps are a doozy.
+Take e and multiply it by 2.  Take i and multiply it by 2.  Add those two together, add 32, subtract h and subtract j.
+Take all of that and find the remainder when you divide by 7. 
+int l : You can do it!
+Take h and multiply it by 11.  Take k and multiply it by 22.  Add those two together, and add a.
+Take all of that and divide by 451.
+int m : Take l (as in L) and multiply it by -7.  Add h and add k and add 114.
+int n : Take m and find the remainder when you divide by 31.
+int month : Divide m by 31.
+HINT:  month should be either 3 or 4.  You can use System.out.println(a); to check it.
+int day : Take n and add 1.
+HINT: day should be between 1 and 31.
+
+Example correct answers (the date in parenthesis is only for clarification, you don�t have to do that):
+
+1776
+4 7
+April 7
+
+2013
+3 31
+March 31
+
+2050
+4 10
+April 10
+
+2014
+4 20
+(April 20)
+
+
