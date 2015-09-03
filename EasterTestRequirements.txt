@@ -4,7 +4,7 @@ Your task: write a program that calculates the date for easter for any year the 
 
 Pay attention to the order of operations!  If you need to do one step first, be sure to put it in parenthesis.
 
-**Take ___A___ and find the remainder when you divide  by __B__� is written like:  a % b**
+**Take ___A___ and find the remainder when you divide  by __B__ is written like:  a % b**
 
 Algorithm: (adapt this into Java code)
 int a : Take the year and find the remainder when you divide by 19 ( use % instead of / to get the remainder).
@@ -32,7 +32,7 @@ HINT:  month should be either 3 or 4.  You can use System.out.println(a); to che
 int day : Take n and add 1.
 HINT: day should be between 1 and 31.
 
-Example correct answers (the date in parenthesis is only for clarification, you don�t have to do that):
+Example correct answers (the date in parenthesis is only for clarification, you don't have to do that):
 
 1776
 4 7
