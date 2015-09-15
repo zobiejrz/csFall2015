@@ -33,10 +33,10 @@ public class test {
 			monthWord = "April";
 			break;
 		default:
-			System.out.println("Error! I don't recognize that month!");
+			System.out.println ("Error! I don't recognize that month!");
 			break;
 		}
-		System.out.println(monthWord + " " + day + ", " + year + " is the date of Easter!");
+		System.out.println (monthWord + " " + day + ", " + year + " is the date of Easter!");
 
 	}
 
